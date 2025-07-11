@@ -374,4 +374,28 @@
    .h5{
     margin-left:-50px;
     }
+
+
+    .product-details {
+  text-align: left; /* align text to left */
+  margin-left: 20px; /* adjust to align with image edges or as you like */
+  
+}
+.product-details h1 {
+  margin: 10px 0; /* clean up extra margin */
+  font-size: 20px;
+}
+
+.rating {
+  margin: 5px 0;
+}
+
+.price-plus {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
    
