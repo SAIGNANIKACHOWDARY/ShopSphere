@@ -1,0 +1,365 @@
+.header {
+      width: 100%;
+      border-top: 3px solid #2c4152;
+      z-index: 101;
+      background-color: #fff;
+      border-bottom: 1px solid #e0e0e0;
+      position: fixed;
+      font-family: SourceSansPro, sans-serif;
+      top: 0;
+      height: 100px;
+      box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .nav {
+      float: right;
+      margin-right: 100px;
+      margin-top: 25px;
+    }
+
+    .nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+    }
+
+    .nav ul li {
+      display: inline-block;
+      margin-right: 40px;
+      color: black;
+      font-weight: bold;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    .carousel {
+      margin-top: 0px; 
+      padding: 60px;
+      background-color:#f9f9f9;
+    }
+
+    .carousel-item {
+      margin-top:80px;
+      min-height: 400px; 
+    }
+
+    .carousel-item img {
+      max-height: 400px;
+      object-fit: contain;
+      width: 100%;
+    }
+
+    .carousel-inner {
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .carousel-item h2 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      margin-left:100px;
+    }
+
+    .carousel-item p {
+      font-size: 1.2rem;
+      color: #333;
+      margin-left:100px;
+    }
+
+   
+    .carousel-item .d-flex > .flex-fill:first-child {
+      max-width: 50%;
+    }
+
+     .Home{
+    height:100vh;
+  
+    
+   }
+   .Shop {
+      padding: 110px;
+      
+      background-color:rgba(255, 251, 251, 0.979);
+    
+    }
+
+    .shop-container {
+      display: flex;        
+      flex-wrap: wrap;        
+      gap: 80px;             
+      justify-content: center; 
+    }
+
+    .shop-items {
+      text-align: center;
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 8px;
+      width: 400px;
+      transition: transform 0.3s;
+      background-color: white;
+    }
+    .shop-items h1{
+      font-size: 20px;
+      margin-right: 100px;
+    }
+
+    .shop-items img {
+      width:80%;
+      height: auto;
+    }
+     .sofa {
+      margin-top: 60px;
+      width:100%;
+      height: auto;
+    }
+
+    .shop-items:hover {
+      transform: scale(1.05);
+    }
+
+ .drop {
+  border-radius: 10px;
+  
+  margin-bottom: 70px;
+  margin-left: 20px;
+  display: inline-block;   
+  padding: 5px; 
+  height: 10px;
+           
+}
+
+.drop select {
+  border: none;
+ 
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 16px;
+  appearance: none;         
+  cursor: pointer;
+  background-color: #003366;
+  
+  
+}
+
+.drop select:focus {
+  outline: none;           
+}
+.filters{
+  display: flex;
+  
+}
+.search{
+  position: relative;
+  display: inline-block;
+}
+.search input{
+  margin-left: 500px;
+  width:600px;
+  border-radius: 30px;
+
+}
+.search i {
+  position: absolute;
+  right: -30px;            
+  top: 27%;
+  transform: translateY(-100%);
+  color: #555;            
+  pointer-events: none;   
+
+  margin-right: 500px;
+}
+#s{
+  margin-right: 50px;
+}
+.footer{
+  background-color:#003366; 
+  height:150px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding:20px;
+  margin:0;
+  padding: 0;
+  
+}
+.footer-text p{
+
+  margin-top: 0;
+  margin-bottom: 0;
+  
+}
+.logo{
+  margin-top:10px;
+  margin-bottom: 0px;
+}
+.second{
+  margin-top:20px;
+  
+  height: 20vh;;
+}
+.second-container{
+ display: flex;        
+      flex-wrap: wrap;        
+      gap: 80px;             
+      justify-content: center; 
+}
+.second-content{
+  text-align: center;
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 8px;
+      width: 250px;
+      height:150px;
+      transition: transform 0.3s;
+}
+.second-content h3{
+ margin-top:10px;
+ font-size: 20px;;
+}
+#bg1-color{
+  background-color: #FAFAD2;
+}
+#bg2-color{
+  background-color: #ADD8E6;
+}
+#bg3-color{
+  background-color: #F0E68C;
+}
+#bg4-color{
+  background-color: #B0C4DE;
+}
+#icon{
+  
+  border-top:10px;
+}
+   
+.Shop h2{
+  text-align: center;
+  font-size: 30px;
+  padding: 15px;
+}
+.rating{
+  margin-right: 210px;
+}
+.rating i {
+  color: gold;
+  margin-right: 3px; /* Optional: space between stars */
+  font-size: 18px;   /* Optional: adjust size */
+}
+.discount{
+  height: 40px;
+  width: 80px;
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  align-content: center;
+  border-radius: 10px;
+  /* margin-top: 50px; */
+}
+.plus{
+  margin-left:10px;
+}
+
+.plus-icon {
+  color: black; 
+  transition: all 0.3s ease; 
+  cursor: pointer; 
+}
+
+/* Hover effect */
+.plus-icon:hover {
+  color: #f9f9f9; /* your color on hover */
+  background-color: #333; /* optional: add background */
+  border-radius: 70%; /* optional: make it round */
+}
+
+  .plus-icon,
+    .plus i {
+      cursor: pointer;
+      padding: 6px;
+      border-radius: 70%;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .plus-icon:hover,
+    .plus i:hover {
+      background-color: #003366;
+      color: #fff;
+    }
+    
+    .d-align{
+      display: flex;
+      position: relative;
+      gap:250px;
+      color: white;
+    }
+      .d-align {
+      display: flex;
+      position: relative;
+      gap: 250px;
+      color:black;
+      align-items: center;
+    }
+    .new-arrivals{
+        height:350vh;
+        width: 100%;
+    }
+    .new-arrivals h2{
+        text-align: center;
+        font-size: 30px;
+    padding: 30px;
+    }
+
+    .nrvls-heart{
+        margin-left:330px;
+    }
+
+    .best-sales{
+        height:250vh;
+    }
+
+     .best-sales h2{
+        text-align: center;
+        font-size: 30px;
+        padding: 25px;
+      background-color:rgba(255, 251, 251, 0.979);
+       
+    }
+ .footer {
+    height: 300px;
+      background-color:#003366;
+      color: hsl(0, 100%, 100%);
+      padding: 35px 0;
+      margin-bottom: 0px;
+}
+    .footer h5 {
+      margin-bottom: 25px;
+    }
+    .footer p {
+      margin: 0;
+      margin-top: 10px;
+    }
+    .footer .fa-bag-shopping {
+      margin-right: 10px;
+    }
+    .gnani{
+      margin-top: 160px;
+      
+    }
+    footer col{
+      text-align: left;
+    }
+    .align{
+      text-align: left;
+      margin-left:80px;
+      
+    }
+    col{
+      margin-left:50px;
+    }
+   .h5{
+    margin-left:-50px;
+    }
+   
